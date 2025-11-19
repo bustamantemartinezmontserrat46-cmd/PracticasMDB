@@ -1,0 +1,11 @@
+use ('Escuela');
+db.alumnos.deleteOne({Nombre: "Cristina"});
+db.alumnos.deleteOne({Nombre: "Ines"});
+db.profesores.deleteOne({Nombre: "Carlos"});
+db.profesores.deleteOne({Nombre: "Luis"});
+db.edificios.deleteOne({Nombre: "Torre Aurora"});
+db.edificios.deleteOne({Nombre: "Torre Solaris"});
+db.salones.deleteOne({Salon: "A"});
+db.salones.deleteOne({Salon: "J"});
+db.materias.deleteOne({Materia: "Matemáticas"});
+db.materias.deleteOne({Materia: "Artes"});
