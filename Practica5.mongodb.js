@@ -1,3 +1,4 @@
+use ('Escuela');
 db.alumnos.find({Nombre: "Said"});
 db.alumnos.find({Nombre: "Abril"});
 db.alumnos.find({Nombre: "Paula"});
